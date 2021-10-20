@@ -16,17 +16,17 @@ The assignment is part the course Reinfocement Learning course of the Master pro
    - Contains the code to define and run the experiment and get the plots.
 
 - windy_gridworld.py
- - Contains the code for the windy_gridworld class.
+   - Contains the code for the windy_gridworld class.
 
 - models.py
- - Contains the code for the Sarsa algorithms.
- - Contains the code for the Expected Sarsa algorithm
+   - Contains the code for the Sarsa algorithms.
+   - Contains the code for the Expected Sarsa algorithm
 
 - policies.py
- - Contains the code for the epsilon greedy policy class.
+   - Contains the code for the epsilon greedy policy class.
 
 - windy_gridworld_experiment.py
- - Contains the code to run the windy grid world experiment, which was defined in run_experiment.py, on either Sarsa or Expected Sarsa. 
+   - Contains the code to run the windy grid world experiment, which was defined in run_experiment.py, on either Sarsa or Expected Sarsa. 
 
 ## Requirements
 
