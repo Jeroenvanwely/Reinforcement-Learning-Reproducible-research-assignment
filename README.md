@@ -13,7 +13,7 @@ The assignment is part the course Reinfocement Learning course of the Master pro
 ## Files Included
 
 - run_experiments.py
- - Contains the code to define and run the experiment and get the plots.
+   - Contains the code to define and run the experiment and get the plots.
 
 - windy_gridworld.py
  - Contains the code for the windy_gridworld class.
