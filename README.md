@@ -3,9 +3,9 @@
 ## Information & Authors
 
 Authors:
-Jochem Soons    -   11327030
-Jeroen van Wely -   11289988
-Niek IJzerman   -   11318740
+ - Jochem Soons    -   11327030
+ - Jeroen van Wely -   11289988
+ - Niek IJzerman   -   11318740
 
 This repository contains the code for Reproducible research assignment.
 The assignment is part the course Reinfocement Learning course of the Master programme Artificial Intelligence at the University of Amsterdam.
