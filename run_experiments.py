@@ -32,17 +32,15 @@ def plot_results(avg_episode_lenghts_sarsa, avg_episode_returns_sarsa, avg_episo
                     avg_episode_returns_exp_sarsa + std_episode_returns_exp_sarsa, color='red', alpha=0.3, label="Expected Sarsa std")
     plt.xlabel('Episodes averaged over {} runs'.format(epochs))
     plt.ylabel('Reward')
-
-'Performance of Sarsa and expected Sarsa in windy gridworld with stochastic policy'
-
-    if config.extra_actions:
-        plt.title('Performance of Sarsa and expected Sarsa in stochastic windy windy gridworld with increased action-space')
+    
+    if config.extra_actions and config.add_stochasticity:
+        plt.title('Performance of Sarsa and expected Sarsa in stochastic windy \n gridworld with increased action-space using epsilon={}'.format(config.epsilon))
     elif config.extra_actions:
-        plt.title('Performance of Sarsa and expected Sarsa in windy gridworld with increased action-space')
+        plt.title('Performance of Sarsa and expected Sarsa in windy gridworld \nwith increased action-space using epsilon={}'.format(config.epsilon))
     elif config.add_stochasticity:
-        plt.title('Performance of Sarsa and expected Sarsa in stochastic windy gridworld')
+        plt.title('Performance of Sarsa and expected Sarsa in \nstochastic windy gridworld using epsilon={}'.format(config.epsilon))
     else:
-        plt.title('Performance of Sarsa and expected Sarsa in determistic windy gridworld')
+        plt.title('Performance of Sarsa and expected Sarsa in \ndetermistic windy gridworld using epsilon={}'.format(config.epsilon))
     plt.legend()
     plt.show()
 
@@ -104,7 +102,7 @@ if __name__ == '__main__':
                         help='Update step size.')
     parser.add_argument('--epsilon', type=float, default=0.1,
                         help='Probability of picking random action.')
-    parser.add_argument('--epochs', type=int, default=10,
+    parser.add_argument('--epochs', type=int, default=100,
                         help='Number of runs we want to average the plots over.')
     parser.add_argument('--average_over_n', type=int, default=50,
                         help='Smooth the graph by averaging over every n episodes.')
