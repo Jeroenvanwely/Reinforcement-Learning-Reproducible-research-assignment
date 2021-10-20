@@ -45,7 +45,7 @@ To activate the environment, run:
 To run the code:
  - All files will have to be within the same directory.
  - To run an experiment run: "python3 run_experiments.py" Followed by command line argument specification.
- - An example would be: python3 run_experiments.py --num_episodes=1000 --discount_factor=1.0 --alpha=0.5 --epsilon=0.1 --epochs=10 --average_over_n=50 --no_extra_actions --no_add_stochasticity
+ - An example would be: python3 run_experiments.py --num_episodes=1000 --discount_factor=1.0 --alpha=0.5 --epsilon=0.1 --epochs=100 --average_over_n=50 --no_extra_actions --no_add_stochasticity
  - To run the experiment using extra actions one would have to change "--no_extra_actions" to "--extra_actions". Likewise to add stochasticity change "--no_add_stochasticity" to "--add_stochasticity".
 
 ## Paramters & Command Line Arguments
@@ -68,7 +68,7 @@ To run the code:
 
 - epochs:
     - Number of runs we want to average the plots over.
-    - Default value: 10
+    - Default value: 100
 
 - average_over_n:
     - Smooth the graph by averaging over every n episodes.
