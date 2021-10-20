@@ -34,13 +34,13 @@ def plot_results(avg_episode_lenghts_sarsa, avg_episode_returns_sarsa, avg_episo
     plt.ylabel('Reward')
     
     if config.extra_actions and config.add_stochasticity:
-        plt.title('Performance of Sarsa and expected Sarsa in stochastic windy \n gridworld with increased action-space using epsilon={}'.format(config.epsilon))
+        plt.title('Performance of Sarsa and expected Sarsa in stochastic windy \n gridworld with increased action-space using $\epsilon$={}'.format(config.epsilon))
     elif config.extra_actions:
-        plt.title('Performance of Sarsa and expected Sarsa in windy gridworld \nwith increased action-space using epsilon={}'.format(config.epsilon))
+        plt.title('Performance of Sarsa and expected Sarsa in windy gridworld \nwith increased action-space using $\epsilon$={}'.format(config.epsilon))
     elif config.add_stochasticity:
-        plt.title('Performance of Sarsa and expected Sarsa in \nstochastic windy gridworld using epsilon={}'.format(config.epsilon))
+        plt.title('Performance of Sarsa and expected Sarsa in \nstochastic windy gridworld using $\epsilon$={}'.format(config.epsilon))
     else:
-        plt.title('Performance of Sarsa and expected Sarsa in \ndetermistic windy gridworld using epsilon={}'.format(config.epsilon))
+        plt.title('Performance of Sarsa and expected Sarsa in \ndetermistic windy gridworld using $\epsilon$={}'.format(config.epsilon))
     plt.legend()
     plt.show()
 
