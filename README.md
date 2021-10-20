@@ -7,8 +7,8 @@ Authors:
  - Jeroen van Wely -   11289988
  - Niek IJzerman   -   11318740
 
-This repository contains the code for Reproducible research assignment.
-The assignment is part the course Reinfocement Learning course of the Master programme Artificial Intelligence at the University of Amsterdam.
+This repository contains the code for Reproducible Research assignment.
+The assignment is part of the Reinfocement Learning course of the Master's programme Artificial Intelligence at the University of Amsterdam.
 
 ## Files Included
 
@@ -20,7 +20,7 @@ The assignment is part the course Reinfocement Learning course of the Master pro
 
 - models.py
   - Contains the code for the Sarsa algorithms.
-  - Contains the code for the Expected Sarsa algorithm
+  - Contains the code for the Expected Sarsa algorithm.
 
 - policies.py
   - Contains the code for the epsilon greedy policy class.
