@@ -9,6 +9,7 @@ Authors:
 
 This repository contains the code for Reproducible Research assignment.
 The assignment is part of the Reinfocement Learning course of the Master's programme Artificial Intelligence at the University of Amsterdam.
+The link to the corresponding medium paper: https://jochemsoons.medium.com/a-comparison-between-sarsa-and-expected-sarsa-66b931202c75
 
 ## Files Included
 
@@ -17,6 +18,7 @@ The assignment is part of the Reinfocement Learning course of the Master's progr
 
 - windy_gridworld.py
   - Contains the code for the windy_gridworld class.
+  - The majority of the code is taken from another source. For more details check the comments at the top of the file.
 
 - models.py
   - Contains the code for the Sarsa algorithms.
