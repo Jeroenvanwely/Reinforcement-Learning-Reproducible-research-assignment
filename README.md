@@ -21,7 +21,7 @@ The link to the corresponding medium paper: https://jochemsoons.medium.com/a-com
   - The majority of the code is taken from another source. For more details check the comments at the top of the file.
 
 - models.py
-  - Contains the code for the Sarsa algorithms.
+  - Contains the code for the Sarsa algorithm.
   - Contains the code for the Expected Sarsa algorithm.
 
 - policies.py
